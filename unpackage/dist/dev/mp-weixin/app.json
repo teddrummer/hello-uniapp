@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/his/his",
+    "pages/add/add",
+    "pages/book/book",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FF0000",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#39cffc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "明细"
+      },
+      {
+        "pagePath": "pages/his/his",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "账本"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
